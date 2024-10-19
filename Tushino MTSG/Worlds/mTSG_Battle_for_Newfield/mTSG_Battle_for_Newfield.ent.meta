@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{48FB0D2359EB0994}Worlds/mTSG_Battle_for_Newfield/mTSG_Battle_for_Newfield.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}
