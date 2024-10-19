@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{69CFCF282DA134D1}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Старший стрелок"
+    Icon "{44B846FB4F46E36A}UI/icons/team_leader.edds"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62A6DA06961D88E9}" {
+     PrefabsToSpawn {
+      "{9FE958D81961DA46}Prefabs/Items/Equipment/Radios/mtsg_Radio_R148.et"
+     }
+    }
+   }
+  }
+ }
+}

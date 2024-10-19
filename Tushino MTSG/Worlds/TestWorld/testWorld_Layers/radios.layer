@@ -1,0 +1,79 @@
+GenericEntity : "{0602E3653FA50126}Prefabs/Items/Equipment/Radios/Radio_RF10/mtsg_Radio_RF10.et" {
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "candleSauce"
+   Transceivers {
+    RadioTransceiver "{5EA4A89F0D06E18F}" {
+     "Transmitting Range" 3500
+     "Frequency resolution" 100
+    }
+   }
+  }
+ }
+ coords 6.804 1 233.113
+}
+GenericEntity : "{36BC0C2F5CDD733C}Prefabs/Items/Equipment/Radios/mtsg_Radio_R107M.et" {
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   Enabled 1
+   "Turned on" 0
+   Transceivers {
+    RadioTransceiver "{5EA4A89F0D06E18F}" {
+     "Transmitting Range" 3500
+    }
+   }
+  }
+ }
+ coords 9.992 0.804 232.681
+}
+GenericEntity : "{483F9EB9BB617990}Prefabs/Items/Equipment/Radios/mtsg_Radio_ANPRC68_SL.et" {
+ coords 11.848 1 233.832
+}
+GenericEntity : "{5FDAD8676491D3D4}Prefabs/Items/Equipment/Radios/mtsg_Radio_ANPRC68.et" {
+ coords 11.859 1 233.311
+}
+GenericEntity : "{62A47238C3C098DC}Prefabs/Items/Equipment/Radios/mtsg_Radio_R148_SL.et" {
+ coords 9.979 1 234.03
+}
+GenericEntity : "{694C91AB5529F5D9}Prefabs/Items/Equipment/Radios/mtsg_Radio_R107M_FIA.et" {
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   Transceivers {
+    RadioTransceiver "{5EA4A89F0D06E18F}" {
+     "Transmitting Range" 3500
+     "Frequency resolution" 100
+    }
+   }
+  }
+ }
+ coords 6.703 1 233.604
+}
+GenericEntity : "{9FE958D81961DA46}Prefabs/Items/Equipment/Radios/mtsg_Radio_R148.et" {
+ coords 10.041 1 233.623
+}
+GenericEntity : "{AEB5FAECB4A84403}Prefabs/Items/Equipment/Radios/mtsg_Radio_R148_FIA.et" {
+ coords 6.768 1 234.062
+}
+GenericEntity : "{B0E826AC6C74BBDC}Prefabs/Items/Equipment/Radios/mtsg_Radio_R148_FIA_SL.et" {
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   Transceivers {
+    RadioTransceiver "{62A6E488441858F5}" {
+     "Frequency resolution" 100
+    }
+    RadioTransceiver "{62A6E488441858FE}" {
+     "Frequency resolution" 100
+    }
+   }
+  }
+ }
+ coords 6.858 1 234.424
+}
+GenericEntity : "{B724B666760FB9A1}Prefabs/Items/Equipment/Radios/mtsg_Radio_ANPRC77.et" {
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   Enabled 1
+  }
+ }
+ coords 11.847 1 232.447
+}
