@@ -1,0 +1,24 @@
+Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ coords 2197.22 53.781 2908.764
+ angleX -2.513
+ angleY -141.643
+ angleZ 0.293
+ {
+  PS_ManualMarker TASK2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   coords 0 0 0
+   angleY 0
+   m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+   m_sImageSetGlow ""
+   m_MarkerColor 1 1 1 1
+   m_sQuadName "Task_Attack"
+   m_fWorldSize 50
+   m_sDescription "Уничтожить грузовик"
+   m_bUseWorldScale 0
+   m_bVisibleForEmptyFaction 1
+   m_aHideOnGameModeStates {
+   }
+   m_iZOrder 10
+   m_bShowForAnyFaction 1
+  }
+ }
+}

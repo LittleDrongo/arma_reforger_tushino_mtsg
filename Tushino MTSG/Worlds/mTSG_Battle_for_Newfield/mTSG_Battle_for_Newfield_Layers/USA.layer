@@ -1,0 +1,148 @@
+$grp SCR_AIGroup : "{21625A2794A6E2C7}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{62A6E4862EF6C24C}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1387.648 9.625 1872.03
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{62A6E4862EF6C24C}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1390.862 9.625 1872.03
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{62A6E4862EF6C24C}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1658.985 0.589 1909.699
+  angleX 0.895
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{62A6E4862EF6C24C}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1655.77 0.589 1909.699
+  angleX 0.895
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{62A6E4862EF6C24C}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1978.731 11.454 1868.038
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{62A6E4862EF6C24C}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1975.516 11.454 1868.038
+ }
+}
+SCR_AIGroup : "{28F6912BB16D00BF}Prefabs/Groups/BLUFOR/Group_US_HQ.et" {
+ coords 1686.794 2.122 1901.023
+}
+$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ M1025_armed_M2HB1 {
+  coords 1671.776 2.488 1975.84
+  angleX 2.527
+  angleY 47.803
+  angleZ 0.124
+ }
+ M1025_armed_M2HB2 {
+  coords 1680.108 3.718 1981.416
+  angleX 8.299
+  angleY 66.285
+  angleZ 1.205
+ }
+ M1025_armed_M2HB3 {
+  coords 1688.304 5.379 1985.852
+  angleX 9.909
+  angleY 63.066
+  angleZ -0.064
+ }
+ M1025_armed_M2HB4 {
+  coords 1974.923 16.644 1897.154
+  angleX -7.871
+  angleY 124.974
+  angleZ -1.16
+ }
+ M1025_armed_M2HB5 {
+  coords 1983.248 15.473 1891.501
+  angleX -5.202
+  angleY 123.008
+  angleZ -0.185
+ }
+ M1025_armed_M2HB6 {
+  coords 1990.47 14.713 1885.521
+  angleX -3.22
+  angleY 120.582
+  angleZ 0.175
+ }
+ M1025_armed_M2HB7 {
+  coords 1391.512 11.806 1893.823
+  angleX 4.466
+  angleY 91.441
+  angleZ 0.112
+ }
+ M1025_armed_M2HB8 {
+  coords 1401.588 12.112 1893.695
+  angleX 1.79
+  angleY 89.671
+  angleZ -0.01
+ }
+ M1025_armed_M2HB9 {
+  coords 1410.911 11.878 1892.664
+  angleX -1.788
+  angleY 87.411
+  angleZ 0.081
+ }
+}
+$grp SCR_AIGroup : "{B87CE3BE8941D357}Prefabs/Groups/BLUFOR/Group_US_PL.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{62A6E4862EF6C24C}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 1384.21 9.723 1872.895
+  angleY 8.531
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{62A6E4862EF6C24C}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 1652.332 0.577 1910.563
+  angleX 1.018
+  angleY 8.518
+  angleZ -0.753
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{62A6E4862EF6C24C}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 1972.078 11.552 1868.903
+  angleY 8.531
+ }
+}

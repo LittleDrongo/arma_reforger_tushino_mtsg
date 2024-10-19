@@ -1,0 +1,16 @@
+SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{62A6E4873063881C}" {
+   m_iCompanyCallsign 1
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{5648FA3278056CB5}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_PL.et" "{DD80FA65DDFF68B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et"
+ }
+ m_bDeleteWhenEmpty 0
+ m_sCustomNameSet ""
+}

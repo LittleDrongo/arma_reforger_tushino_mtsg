@@ -1,0 +1,17 @@
+SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{62A6E48704AB1533}" {
+   m_iCompanyCallsign 1
+   m_iSquadCallsign 1
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{CF5643AB65E25D25}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_SL.et" "{00716F7369F3C5E8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_P.et" "{B24EAF53007161BC}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_SR.et" "{7A76DB752EEFE16A}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_AT.et" "{7AB7BE9C16592A38}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_AAT.et" "{69CFCF282DA134D1}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_Rifleman.et" "{69CFCF282DA134D1}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_Rifleman.et" "{69CFCF282DA134D1}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_Rifleman.et"
+ }
+ m_bDeleteWhenEmpty 0
+ m_sCustomNameSet ""
+}

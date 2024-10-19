@@ -1,12 +1,94 @@
-SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "Column"
+SCR_AIGroup : "{121F4A7DB996AE83}Prefabs/Groups/OPFOR/mtsg_Group_USSR_HQ.et" {
+ coords 2206.021 53.596 2916.795
+ angleY 34.179
+ m_aUnitPrefabSlots {
+  "{608A72127D48234B}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_Officer.et"
+ }
+}
+$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ Ural4320_transport1 {
+  coords 2840.307 37.05 3176.369
+  angleX 3.576
+  angleY 89.969
+  angleZ -0.002
+ }
+ Ural4320_transport2 {
+  coords 2852.354 37.642 3175.464
+  angleX 2.647
+  angleY 99.506
+  angleZ 0.443
+ }
+ Ural4320_transport3 {
+  coords 2863.756 38.093 3173.697
+  angleX 2.636
+  angleY 100.806
+  angleZ 0.503
+ }
+}
+$grp SCR_AIGroup : "{5E582A7F5163AEB8}Prefabs/Groups/OPFOR/mtsg_Group_USSR_RifleSuqd.et" {
+ {
+  coords 2213.012 53.811 2908.453
+  angleY 22.936
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{62A6E48704AB1533}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2215.22 53.811 2907.519
+  angleY 22.936
+  m_aUnitPrefabSlots +{
   }
  }
- coords 2162.541 53.93 2912.501
- angleY 45.753
- m_aUnitPrefabSlots {
-  "{A5F4D7FEBDB57182}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL_P.et" "{6A840CB36D1670C2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR_P.et" "{00716F7369F3C5E8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_P.et" "{BDA13DF416E8D9F6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT_P.et" "{F9C5F4700B5D87FB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AAT_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et" "{47B0BA658525301A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_P.et"
+ {
+  components {
+   PS_GroupCallsignAssigner "{62A6E48704AB1533}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2828.232 36.298 3174.518
+  angleY 85.061
+  m_aUnitPrefabSlots +{
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{62A6E48704AB1533}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 2828.025 36.298 3176.906
+  angleY 85.061
+ }
+}
+$grp SCR_AIGroup : "{8D3B54028CEE5C33}Prefabs/Groups/OPFOR/mtsg_Group_USSR_PHQ.et" {
+ {
+  coords 2210.291 53.761 2909.844
+  angleY 24.059
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{62A6E4873063881C}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 2827.982 36.248 3179.962
+  angleY 86.185
+ }
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR2 {
+  coords 2241.113 53.652 2865.769
+  angleX -1.02
+  angleY -68.765
+  angleZ -2.316
+ }
+ BTR1 {
+  coords 2244.352 53.917 2876.865
+  angleX -1.784
+  angleY -85.282
+  angleZ -0.147
  }
 }

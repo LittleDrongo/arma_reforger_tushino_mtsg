@@ -1,0 +1,26 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 1965.264 57.196 3260.194
+  m_sTitle "Захватить штаб"
+  m_iScore 50
+  m_sFactionKey "US"
+ }
+ {
+  coords 1965.264 57.196 3260.194
+  m_sTitle "Удержать штаб"
+  m_iScore 50
+  m_sFactionKey "USSR"
+ }
+ {
+  coords 1991.465 57.196 3259.038
+  m_sTitle "Уничтожить КШМ"
+  m_iScore 50
+  m_sFactionKey "US"
+ }
+ {
+  coords 1991.465 57.196 3259.038
+  m_sTitle "Сохранить КШМ"
+  m_iScore 50
+  m_sFactionKey "USSR"
+ }
+}

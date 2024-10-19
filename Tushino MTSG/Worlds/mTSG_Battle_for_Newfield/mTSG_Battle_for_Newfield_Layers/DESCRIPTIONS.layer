@@ -1,0 +1,46 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ about {
+  coords 1838.452 19.31 1838.749
+  m_sTitle "О миссии"
+  m_sTextData "Битва за Новые поля"\
+  ""\
+  "Наступальная операция ВС США против ВС СССР"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ rules {
+  coords 1838.452 19.31 1838.749
+  m_sTitle "Условности"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "УСЛОВНОСТИ ДЛЯ ВСЕХ ИГРОКОВ:"\
+  "— Всем запрещено надевать головные уборы, разгрузки, бронежилеты противника;"\
+  "— Запрещено снимать головные уборы, менять можно."\
+  ""\
+  "ДЛЯ ВС США"\
+  "— Для победы необходимо в течении 40 минут захватить штаб и уничтожить КШМ СССР"\
+  ""\
+  "ДЛЯ ВС СССР"\
+  "— Для победы необходимо в течении 40 минут удержать штаб и сохранить КШМ"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ task_US {
+  coords 1838.452 19.31 1838.749
+  m_sTitle "Задача СЩА"
+  m_sTextData "Ваша задача захватить штаб СССР рядом с \"Новыми полями\""\
+  ""\
+  "- Обратите внимнаие, в ваших грузовиках есть мины"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ task_USSR {
+  coords 1838.452 19.31 1838.749
+  m_sTitle "Задача СССР"
+  m_sTextData "Ваша задача удержать штаб СССР рядом с \"Новыми полями\""\
+  ""
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+}

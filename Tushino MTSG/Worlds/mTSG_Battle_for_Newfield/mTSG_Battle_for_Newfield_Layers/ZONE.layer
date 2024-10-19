@@ -1,0 +1,181 @@
+PolylineShapeEntity {
+ components {
+  PS_PolyZone "{62A6E49C752CC0BF}" {
+   m_mPolygonTexture ""
+   m_cPolygonColor 1 1 1 0
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 0.502 0 0 1
+   m_fPolygonBorderWidth 6
+   m_bReversed 1
+   m_aVisibleForFactions {
+    "US" "USSR" "FIA" ""
+   }
+  }
+ }
+ coords 1674.693 42.062 2192.708
+ Points {
+  ShapePoint "{62A6E49DBA89D07E}" {
+   Position 0 0 0
+  }
+  ShapePoint "{62A6E49DBA899060}" {
+   Position -23.703 -0.219 11.596
+  }
+  ShapePoint "{62A6E49DB60B1F42}" {
+   Position -108.846 -4.223 55.433
+  }
+  ShapePoint "{62A6E49DB256E9E5}" {
+   Position -183.221 -4.474 84.079
+  }
+  ShapePoint "{62A6E49DB20AB92E}" {
+   Position -215.897 -5.965 92.326
+  }
+  ShapePoint "{62A6E49DAD04F444}" {
+   Position -212.642 -6.68 310.805
+  }
+  ShapePoint "{62A6E49DAF27D9BF}" {
+   Position -181.58 -6.75 340.801
+  }
+  ShapePoint "{62A6E49DAE93BCED}" {
+   Position -151.461 -6.049 368.088
+  }
+  ShapePoint "{62A6E49DAE71195F}" {
+   Position -127.903 -4.718 412.701
+  }
+  ShapePoint "{62A6E49DA83BDE54}" {
+   Position -111.545 -3.672 459.212
+  }
+  ShapePoint "{62A6E49DABB27CFB}" {
+   Position -64.009 -1.938 520.875
+  }
+  ShapePoint "{62A6E49DAB622F70}" {
+   Position -51.674 -2.031 526.631
+  }
+  ShapePoint "{62A6E49DAA0EC141}" {
+   Position 147.832 -2.813 577.259
+  }
+  ShapePoint "{62A6E49DA5FC524C}" {
+   Position 181 -2.638 594.531
+  }
+  ShapePoint "{62A6E49DA4A3F2BC}" {
+   Position 196.266 -1.973 623.966
+  }
+  ShapePoint "{62A6E49DA7DA8CD6}" {
+   Position 180.737 -0.492 679.547
+  }
+  ShapePoint "{62A6E49DA748DB8D}" {
+   Position 166.27 1.565 733.346
+  }
+  ShapePoint "{62A6E49DA6DBE7F5}" {
+   Position 170.348 5.422 789.095
+  }
+  ShapePoint "{62A6E49DA1FCC86F}" {
+   Position 182.777 9.906 853.059
+  }
+  ShapePoint "{62A6E49D9DA84FAD}" {
+   Position 58.415 9.909 919.74
+  }
+  ShapePoint "{62A6E49D9C590DB7}" {
+   Position 87.849 6.893 958.062
+  }
+  ShapePoint "{62A6E49D9C318580}" {
+   Position 123.896 7.207 974.584
+  }
+  ShapePoint "{62A6E49D9FCF5504}" {
+   Position 144.812 8.507 1006.832
+  }
+  ShapePoint "{62A6E49D9F55FC0F}" {
+   Position 184.686 10.93 1039.176
+  }
+  ShapePoint "{62A6E49D9EAA505B}" {
+   Position 253.248 14.96 1112.033
+  }
+  ShapePoint "{62A6E49D9E0F7495}" {
+   Position 294.302 15.744 1124.885
+  }
+  ShapePoint "{62A6E49D99BD2297}" {
+   Position 321.028 11.501 1177.203
+  }
+  ShapePoint "{62A6E49D990B79D2}" {
+   Position 399.741 -27.54 1260.301
+  }
+  ShapePoint "{62A6E49D9A5C8FF0}" {
+   Position 430.875 -27.062 1240.495
+  }
+  ShapePoint "{62A6E49D961CBFD9}" {
+   Position 451.775 -28.648 1160.572
+  }
+  ShapePoint "{62A6E49D90D4A128}" {
+   Position 465.931 -30.026 1093.667
+  }
+  ShapePoint "{62A6E49D90BACBBB}" {
+   Position 489.261 -30.937 1026.033
+  }
+  ShapePoint "{62A6E49D9035405F}" {
+   Position 523.431 -30.614 986.649
+  }
+  ShapePoint "{62A6E49D92C8824E}" {
+   Position 561.922 -29.898 953.353
+  }
+  ShapePoint "{62A6E49D92730D47}" {
+   Position 613.256 -28.502 922.208
+  }
+  ShapePoint "{62A6E49D8FEE0CB1}" {
+   Position 649.816 -27.515 905.352
+  }
+  ShapePoint "{62A6E49D8F39833A}" {
+   Position 716.2 -25.941 898.088
+  }
+  ShapePoint "{62A6E49D8E2E6FE8}" {
+   Position 1228.644 -76.081 1341.442
+  }
+  ShapePoint "{62A6E49D88061819}" {
+   Position 1730.052 -40.077 635.995
+  }
+  ShapePoint "{62A6E49D8B9EE748}" {
+   Position 1473.844 -1.901 295.215
+  }
+  ShapePoint "{62A6E49D8A0FBC0B}" {
+   Position 1210.189 14.311 217.576
+  }
+  ShapePoint "{62A6E49D85B0EBCA}" {
+   Position 913.521 68.955 333.731
+  }
+  ShapePoint "{62A6E49D8750BC35}" {
+   Position 797.319 45.092 441.753
+  }
+  ShapePoint "{62A6E49D8676AD33}" {
+   Position 722.103 57.373 240.836
+  }
+  ShapePoint "{62A6E49D80D74F49}" {
+   Position 602.577 44.78 -9.345
+  }
+  ShapePoint "{62A6E49D8323CF6C}" {
+   Position 523.42 15.062 -107.608
+  }
+  ShapePoint "{62A6E49D8221D46C}" {
+   Position 104.271 -3.008 -32.517
+  }
+ }
+ IsClosed 1
+ {
+  PS_PolyZoneTrigger {
+   components {
+    Hierarchy "{614548BDF998E12B}" {
+    }
+   }
+   TriggerShapeType Polyline
+   "Polyline Height" 500
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   UpdatePeriod 1
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_polyZoneEffect PS_PolyZoneEffectRestricted "{614548BC046ADB65}" {
+    m_fKillTime 30
+   }
+   m_bReversed 1
+   m_sFactionKey "USSR"
+  }
+ }
+}

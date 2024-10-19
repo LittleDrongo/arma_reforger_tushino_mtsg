@@ -1,0 +1,13 @@
+SCR_AIGroup : "{F72EF3429D8C8DF5}Prefabs/Groups/BLUFOR/Group_US_AmmoTeam.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{62A6E4862EF6C24C}" {
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{5124771ECBFB79A7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Officer_P.et"
+ }
+}

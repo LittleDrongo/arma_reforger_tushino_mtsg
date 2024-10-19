@@ -1,5 +1,27 @@
+Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ components {
+  BaseRadioComponent "{51EAE036CCD0A08E}" {
+   Transceivers {
+    RelayTransceiver "{5A9ABE5D9A773049}" {
+     "Transmitting Range" 9000
+     "Frequency resolution" 100
+    }
+   }
+  }
+ }
+ coords 51.249 1 222.796
+}
+SCR_ChimeraCharacter : "{2940AA84B1B66F05}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_Unarmed.et" {
+ coords 12.344 1 244.034
+}
 SCR_ChimeraCharacter : "{5648FA3278056CB5}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_PL.et" {
  coords 9.163 1 242.564
+}
+SCR_ChimeraCharacter : "{7A76DB752EEFE16A}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_AT.et" {
+ coords 14.467 1 246.703
+}
+SCR_ChimeraCharacter : "{7AB7BE9C16592A38}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_AAT.et" {
+ coords 18.047 1 247.224
 }
 SCR_ChimeraCharacter : "{B24EAF53007161BC}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_SR.et" {
  components {
