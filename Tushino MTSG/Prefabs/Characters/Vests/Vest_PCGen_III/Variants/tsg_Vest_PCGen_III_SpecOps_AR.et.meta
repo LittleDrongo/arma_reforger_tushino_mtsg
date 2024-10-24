@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{7345D2F1A9C1C72F}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/tsg_Vest_PCGen_III_SpecOps_AR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

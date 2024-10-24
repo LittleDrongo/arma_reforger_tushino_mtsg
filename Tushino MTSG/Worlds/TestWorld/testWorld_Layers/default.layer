@@ -1,38 +1,28 @@
-Vehicle Ural4320_command1 : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
- components {
-  BaseRadioComponent "{51EAE036CCD0A08E}" {
-   Transceivers {
-    RelayTransceiver "{5A9ABE5D9A773049}" {
-     "Transmitting Range" 9000
-     "Frequency resolution" 100
-    }
-   }
-  }
- }
- coords 51.249 1 222.796
+GenericEntity : "{1F52F4D146EE2D7E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_ACOG_M203.et" {
+ coords 15.802 1.425 9.629
 }
-SCR_ChimeraCharacter : "{2940AA84B1B66F05}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_Unarmed.et" {
- coords 12.344 1 244.034
+SCR_ChimeraCharacter : "{3F5F4A349BEA54E2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SPEC/drg_Character_RHS_SSO_Rifleman.et" {
+ coords 14.681 1 6.316
 }
-SCR_ChimeraCharacter : "{5648FA3278056CB5}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_PL.et" {
- coords 9.163 1 242.564
+SCR_ChimeraCharacter : "{59B8CE7F80BD3D10}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SPEC/drg_Character_RHS_SSO_Leader.et" {
+ coords 13.567 1 5.559
 }
-SCR_ChimeraCharacter : "{7A76DB752EEFE16A}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_AT.et" {
- coords 14.467 1 246.703
+SCR_ChimeraCharacter : "{605823C66FDBC721}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/drg_Character_RHS_USMC_AR.et" {
+ coords 11.501 1.019 4.353
+ angleY -18.848
 }
-SCR_ChimeraCharacter : "{7AB7BE9C16592A38}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_AAT.et" {
- coords 18.047 1 247.224
+GenericEntity : "{90D8238D1D8D2DC6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_Aimpoint.et" {
+ coords 17.011 1.65 9.114
 }
-SCR_ChimeraCharacter : "{B24EAF53007161BC}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_SR.et" {
- components {
-  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Старший hasadkja"
-   }
-  }
- }
- coords 6.787 1 243.858
+SCR_ChimeraCharacter : "{AB2760EB80AFCAA9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SPEC/drg_Character_RHS_SSO_Rifleman_LAT.et" {
+ coords 15.662 1 7.061
 }
-SCR_ChimeraCharacter : "{CF5643AB65E25D25}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_SL.et" {
- coords 4.903 1 244.142
+GenericEntity : "{D938DB437664C0AF}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4_Peq_Thermo.et" {
+ coords 12.194 2.153 8.1
+}
+SCR_ChimeraCharacter : "{E0E74144C9457F2D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SPEC/drg_Character_RHS_SSO_Sapper.et" {
+ coords 16.77 1 7.386
+}
+GenericEntity : "{E6936F51C00904C4}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_Aimpoint_M203.et" {
+ coords 13.246 2.052 8.388
 }

@@ -1,0 +1,94 @@
+GenericEntity : "{158F912CFD723FC1}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Loadout_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{D69760DB4614F2D5}Assets/Characters/Belts/Belt_Okinawa/Okinawa_belt_ground.xob"
+  }
+  RHS_ClothNodeStorageComponent "{5DEB2A8AB559C576}" {
+   Attributes SCR_ItemAttributeCollection "{5DEB2A8AB559C568}" {
+    ItemDisplayName UIInfo "{5DEB2A8AB559C56B}" {
+     Name "#RHS-Vest_Preset_Prefix #RHS-PC_Gen_III_Name [8]"
+     Description "#RHS-PC_Gen_III_Description"
+    }
+   }
+   MaxCumulativeVolume 100
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     PivotID "Spine5"
+     Offset 0.0203 0.1942 0.1697
+     Angles 15.4181 0.7902 0.1736
+     InspectionWidgetOffset 0.0202 1.3778 0.1353
+     AreaType RHS_LoadoutMediumVelcroSlotArea "{62B129B041E9C04F}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.3
+     m_sInspectIconTexture "{72869FB002B6ABC2}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-M-alt-UI.edds"
+    }
+    RHS_LoadoutSlotInfo TopChestVelctro {
+     PivotID "Spine5"
+     Offset 0.0212 0.2454 0.1564
+     Angles 20.8154 0.8155 0.1727
+     InspectionWidgetOffset 0.0202 1.473 0.0963
+     AreaType RHS_LoadoutMediumVelcroSlotArea "{62B129B041E9C05B}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.3
+     m_sInspectIconTexture "{72869FB002B6ABC2}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-M-alt-UI.edds"
+    }
+    LoadoutSlotInfo util {
+     PivotID "Spine5"
+     Offset -0.1971 0.0189 -0.0055
+     Angles 12.1835 91.0029 -4.4204
+     Prefab "{E2570E47232ACCAA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo raid {
+     PivotID "Spine5"
+     Offset 0 -0.1406 0.1627
+     Angles -3.5042 0 0
+     MergePhysics 1
+     Prefab "{D075481CB65F1AB5}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo radio {
+     PivotID "Spine5"
+     Offset 0.1924 0.0323 -0.1276
+     Angles -0.3928 46.7306 -5.5162
+     Prefab "{DA627786471E28B5}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_152_Radio.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo PistolHolster {
+     PivotID "Spine5"
+     Offset -0.0325 0.1528 0.1763
+     Angles 16.6985 -6.4581 65.4113
+     Prefab "{05CD790F33DDF9D6}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_Olive.et"
+    }
+    LoadoutSlotInfo M249_Pouch {
+     Offset 0.2338 0.8468 -0.0451
+     Angles 0 73.4084 0
+     Prefab "{4F018E3CF74D8636}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et"
+    }
+    LoadoutSlotInfo M249_Pouch_2 {
+     Offset -0.1599 0.8468 0.049
+     Angles 0 -54.8999 0
+     Prefab "{4F018E3CF74D8636}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et"
+    }
+    LoadoutSlotInfo ifak {
+    }
+   }
+   WornModel "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+   ItemModel "{D69760DB4614F2D5}Assets/Characters/Belts/Belt_Okinawa/Okinawa_belt_ground.xob"
+   DebugWornModel 1
+   DepthBack -0.04
+   DepthLeft 0.03
+   AreaOcludders {
+    "ChestLeftBottomFront"
+   }
+  }
+ }
+ coords 765.746 50.676 2450.215
+}

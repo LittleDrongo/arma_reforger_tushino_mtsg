@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B0B3E06A17B8AC6D}UI/icons/officer.edds"
+ Name "{B0B3E06A17B8AC6D}UI/Icons/officer.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   PNGResourceClass PS5 : "{6248F71B9D7C1E93}configs/ResourceTypes/PS5/TextureUnspecified.conf" {
   }
   PNGResourceClass HEADLESS : "{699C82A6807668A7}Configs/System/ResourceTypes/HEADLESS/TextureUnspecified.conf" {
+  }
+  PNGResourceClass Xbox : PC {
   }
  }
 }
